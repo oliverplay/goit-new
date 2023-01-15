@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --accentbright: #2196f3;
+  --mainbright: #ffffff;
+  --mainmid: #757575;
+  --maindark: #212121;
+  --background: #e5e5e5;
+  --footercolor: #2f303a;
+  --accentbackground: #f5f4fa;
+  --accentbox: #eeeeee;
+}
+/* Background Boxes*/
+.topbarback {
+  background-color: var(--mainbright);
+}
+.promobody {
+  background-color: var(--footercolor);
+}
+.ourteam {
+  background-color: var(--accentbackground);
+}
+.imgbox {
+  background-color: var(--accentbox);
+}
+
+/* Buttons */
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 4px;
+}
+.promobutton {
+  font-weight: 700;
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.filter {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  background-color: var(--accentbackground);
+  border: 2px;
+  color: var(--accentbright);
+}
+.filter:hover {
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+}
+
+/* Text Styles*/
+
+body {
+  font-family: roboto;
+  color: var(--maindark);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  background-color: var(--background);
+}
+
+a:link:active {
+  cursor: pointer;
+}
+
+.logo {
+  color: var(--accentbright);
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.174;
+}
+
+.lead {
+  list-style: none;
+}
+.topbar {
+  color: var(--maindark);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.172;
+}
+.topbar:hover {
+  color: var(--accentbright);
+}
+
+.rightbar {
+  color: var(--mainmid);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rightbar:hover {
+  color: var(--accentbright);
+}
+
+a:link {
+  text-decoration: none;
+}
+.lead-next {
+  color: var(--mainmid);
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.promo {
+  font-weight: 900;
+  color: var(--mainbright);
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.minihead {
+  font-weight: 700;
+  line-height: 1.172;
+}
+
+.midhead {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+}
+.nametag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.jobtitle {
+  font-size: 16px;
+  color: var(--mainmid);
+}
+.bottom {
+  font-style: normal;
+}
+.where {
+  color: var(--mainbright);
+}
+
+.digitalcontact {
+  color: var(--mainbright);
+  opacity: 0.6;
+}
+.artname {
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.artdesc {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--mainmid);
+}
